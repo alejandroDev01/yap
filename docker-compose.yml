@@ -15,7 +15,7 @@ services:
   laravel:
     build:
       context: . 
-      dockerfile: .infra/docker/Dockerfile
+      dockerfile: .Dockerfile
     container_name: server-yap
     restart: unless-stopped
     ports:
